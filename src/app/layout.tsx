@@ -29,7 +29,7 @@ export default function RootLayout({
             <body
                 className={`${nunitoSans.variable} ${ralewaySans.variable} antialiased`}
             >
-                <div className="flex flex-col min-h-screen justify-between">
+                <div className="flex flex-col min-h-screen justify-between bg-[#0c0c0d]">
                     <div>
                         <Header />
                         {children}
