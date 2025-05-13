@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Github from "../../../public/components/github";
-import Linkedin from "../../../public/components/linkedin";
-import Mail from "../../../public/components/mail";
+import Github from "@public/components/github";
+import Linkedin from "@public/components/linkedin";
+import Mail from "@public/components/mail";
 
 export function Footer() {
     return (
@@ -9,11 +9,11 @@ export function Footer() {
             <footer className="pb-[160px]">
                 <div className="container">
                     <div className="flex px-[30px] flex-col justify-between space-y-[18px]">
-                        <div className="max-w-[325px] flex items-center justify-between rounded-[100px] bg-[#131313]">
-                            <h3 className="font-normal text-[16px] pl-[26px] pt-[30px] pb-[25px] text-[#b4b4b4]">
+                        <div className="min-x-w-[325px] flex items-center justify-between rounded-[100px] bg-[#131313] md:flex 2xl:max-w-[1450px]">
+                            <h3 className="font-normal text-[16px] pl-[26px] pt-[30px] pb-[25px] text-[#b4b4b4] md:text-[18px] md:pl-[55px]">
                                 Follow me
                             </h3>
-                            <div className="flex pr-[26px] py-[24px] gap-[22px]">
+                            <div className="flex pr-[26px] py-[24px] gap-[22px] md:flex md:gap-[28px] md:pr-[55px]">
                                 <Link
                                     href={
                                         "https://github.com/muhiddinovismoil/"
@@ -38,7 +38,7 @@ export function Footer() {
                                 </Link>
                             </div>
                         </div>
-                        <p className="font-light pl-[26px] text-[#fff] leading-[175%] text-[16px]">
+                        <p className="font-light pl-[26px] text-[#fff] leading-[175%] text-[16px] md:pl-[55px]">
                             Muhiddinov's © {new Date().getFullYear()}
                         </p>
                     </div>
