@@ -8,14 +8,12 @@ export function Footer() {
                 <div className="container">
                     <div className="flex px-[30px] flex-col justify-between space-y-[18px]">
                         <div className="min-x-w-[325px] flex items-center justify-between rounded-[100px] bg-[#131313] md:flex 2xl:max-w-[1450px]">
-                            <p className="font-normal text-[16px] pl-[26px] pt-[30px] pb-[25px] text-[#b4b4b4] md:text-[18px] md:pl-[55px]">
+                            <p className="font-extralight text-[16px] pl-[26px] pt-[25px] pb-[25px] text-[#b4b4b4] md:text-[18px] md:pl-[55px] md:pt-[30px]">
                                 Follow me
                             </p>
                             <div className="flex pr-[26px] py-[24px] gap-[22px] md:flex md:gap-[28px] md:pr-[55px]">
                                 <Link
-                                    href={
-                                        "https://github.com/muhiddinovismoil/"
-                                    }
+                                    href={"https://github.com/muhiddinovismoil"}
                                     target="_blank"
                                 >
                                     <Github />
