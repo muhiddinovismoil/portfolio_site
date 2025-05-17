@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito, Raleway } from "next/font/google";
-import "./globals.css";
 import { Header, Footer } from "@/components";
+import "./globals.css";
 
 const nunitoSans = Nunito({
     variable: "--font-nunito-sans",
