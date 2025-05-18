@@ -4,10 +4,10 @@ export function Header() {
     return (
         <header className="fixed bottom-[40px] w-full flex justify-center z-50">
             <div className="rounded-[100px] max-w-[325px] w-full bg-[#131313]/70 backdrop-blur-xs  overflow-hidden">
-                <div className="flex justify-center overflow-x-auto whitespace-nowrap gap-[38px] pt-[25px] pb-[26px] scrollbar-none">
+                <div className="flex justify-center overflow-x-auto whitespace-nowrap gap-[45px] pt-[26px] pb-[27px] scrollbar-none">
                     <Link
                         href={"/"}
-                        className="pl-[90px] shrink-0 text-white font-light"
+                        className="pl-[115px] shrink-0 text-white font-light"
                     >
                         muhiddinov
                     </Link>
