@@ -22,18 +22,18 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-main-sans);
+    font-family: var(--font-nunito-sans);
 }
 p {
-    font-family: var(--font-sans);
+    font-family: var(--font-raleway-sans);
 }
 
 .main_sans {
-    font-family: var(--font-main-sans);
+    font-family: var(--font-raleway-sans);
 }
 
 .secondary_sans {
-    font-family: var(--font-sans);
+    font-family: var(--font-nunito-sans);
 }
 
 .scrollbar-none::-webkit-scrollbar {

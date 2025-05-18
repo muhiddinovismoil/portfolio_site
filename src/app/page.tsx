@@ -41,7 +41,7 @@ export default function Home() {
                             </div>
                             <div className="flex flex-col items-center pt-[56px] gap-[13px]">
                                 <a
-                                    href="/javascript.svg"
+                                    href="/cv/MuhiddinovIsmoil-Resume.pdf"
                                     download
                                     className="px-[40px] py-[12px] text-black font-bold bg-white rounded-[100px] hover:bg-[#cccccc] cursor-pointer"
                                 >
@@ -73,6 +73,21 @@ export default function Home() {
                             <div className="pt-[55px]">
                                 <SliderXp />
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="pt-[117px]">
+                    <div className="container">
+                        <div className=" flex flex-col gap-[100px] items-center">
+                            <p className="text-center text-[40px] font-semibold text-[#c69aff]">
+                                Javascript
+                            </p>
+                            <p className="text-center text-[40px] font-semibold text-[#9f53ff]">
+                                Node.js
+                            </p>
+                            <p className="text-center text-[40px] font-semibold text-[#6104d6]">
+                                Coffee
+                            </p>
                         </div>
                     </div>
                 </section>
