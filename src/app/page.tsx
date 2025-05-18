@@ -76,7 +76,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="pt-[117px]">
+                <section className="pt-[117px] pb-[104px]">
                     <div className="container">
                         <div className=" flex flex-col gap-[100px] items-center">
                             <p className="text-center text-[40px] font-semibold text-[#c69aff]">
@@ -87,6 +87,15 @@ export default function Home() {
                             </p>
                             <p className="text-center text-[40px] font-semibold text-[#6104d6]">
                                 Coffee
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section className="pt-[104px] pb-[110px]">
+                    <div className="container">
+                        <div className="flex flex-col items-center gap-[62px]">
+                            <p className="text-center max-w-[326px] text-[32px] font-normal text-gray-300">
+                                These are the technologies that I’ve been using
                             </p>
                         </div>
                     </div>
