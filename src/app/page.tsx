@@ -1,8 +1,7 @@
 import React from "react";
-import { Slider } from "@/components";
 import Image from "next/image";
 import Link from "next/link";
-import { SliderXp } from "@/components/client/slider-xp";
+import { Slider, SliderXp } from "@/components";
 export default function Home() {
     return (
         <>
@@ -41,9 +40,13 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="flex flex-col items-center pt-[56px] gap-[13px]">
-                                <button className="px-[40px] py-[12px] text-black font-bold bg-white rounded-[100px] hover:bg-[#cccccc] cursor-pointer">
+                                <a
+                                    href="/javascript.svg"
+                                    download
+                                    className="px-[40px] py-[12px] text-black font-bold bg-white rounded-[100px] hover:bg-[#cccccc] cursor-pointer"
+                                >
                                     Download CV
-                                </button>
+                                </a>
                                 <Link
                                     href={"/experience"}
                                     className="px-[40px] py-[12px]"
@@ -54,7 +57,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="pt-[93px]">
+                <section className="pt-[93px] pb-[107px]">
                     <div className="container">
                         <div className="flex flex-col gap-[24px] items-center text-center">
                             <h3 className="font-sans font-medium text-[#717171] text-[16px]">
@@ -67,7 +70,9 @@ export default function Home() {
                                 with the most popular ecosystem frontend and
                                 backend
                             </h3>
-                            {/* <SliderXp /> */}
+                            <div className="pt-[55px]">
+                                <SliderXp />
+                            </div>
                         </div>
                     </div>
                 </section>
