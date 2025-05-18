@@ -97,6 +97,7 @@ export default function Home() {
                             <p className="text-center max-w-[326px] text-[32px] font-normal text-gray-300">
                                 These are the technologies that I’ve been using
                             </p>
+                            <Slider />
                         </div>
                     </div>
                 </section>
