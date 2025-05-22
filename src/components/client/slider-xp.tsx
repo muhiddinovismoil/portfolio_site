@@ -13,7 +13,6 @@ export const SliderXp = () => {
                 spaceBetween={10}
                 slidesPerView={1.4}
                 speed={500}
-                // pagination={{ clickable: true }}
             >
                 {xpData.map((item) => (
                     <SwiperSlide key={item.id}>

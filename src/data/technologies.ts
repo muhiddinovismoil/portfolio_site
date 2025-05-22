@@ -111,7 +111,7 @@ export const technologiesData: TechnologiesI[] = [
     },
     {
         id: "2d00a511-d382-4f13-bef6-f0f9f49161e1",
-        title: "Devops",
+        title: "DevOps",
         tech_data: [
             {
                 id: "b1db2a18-86da-4861-b24f-1b6f76520ae8",
