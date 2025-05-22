@@ -27,7 +27,7 @@ export function Footer() {
                                     <LinkedIn />
                                 </Link>
                                 <Link
-                                    href={"mailto:muhiddinovismoil2@gmail.com"}
+                                    href={"mailto:mukhiddinovvismoil@gmail.com"}
                                     target="_blank"
                                 >
                                     <Mail />
