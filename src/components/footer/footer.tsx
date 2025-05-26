@@ -7,7 +7,7 @@ export function Footer() {
             <footer className="pb-[160px] md:pb-[100px] lg:pb-[80px] xl:pb-[60px] 2xl:pb-[40px]">
                 <div className="container">
                     <div className="flex px-[30px] flex-col justify-between space-y-[18px]">
-                        <div className="min-x-w-[325px] flex items-center justify-between rounded-[100px] bg-[#131313] md:flex 2xl:max-w-[1450px]">
+                        <div className="min--w-[325px] flex items-center justify-between rounded-[100px] bg-[#131313] md:flex 2xl:max-w-[1450px]">
                             <p className="font-extralight text-[16px] pl-[26px] pt-[25px] pb-[25px] text-[#b4b4b4] md:text-[18px] md:pl-[55px] md:pt-[30px]">
                                 Follow me
                             </p>

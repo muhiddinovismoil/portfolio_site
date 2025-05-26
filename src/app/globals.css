@@ -46,9 +46,11 @@ p {
 }
 
 .container {
-    max-width: 1552px;
+    max-width: 1550px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .blob-mask {
     clip-path: ellipse(60% 50% at 50% 50%);

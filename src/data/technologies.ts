@@ -38,6 +38,27 @@ export const technologiesData: TechnologiesI[] = [
         ],
     },
     {
+        id: "2d00a511-d382-4f13-bef6-f0f9f49161e1",
+        title: "DevOps",
+        tech_data: [
+            {
+                id: "b1db2a18-86da-4861-b24f-1b6f76520ae8",
+                name: "GitHub Actions",
+                logo: "/technologies/devops/github-actions.svg",
+            },
+            {
+                id: "c482f470-6f1e-4a1d-8260-8a5dc372ee29",
+                name: "Nginx",
+                logo: "/technologies/devops/nginx.svg",
+            },
+            {
+                id: "22b6d922-5e6f-4fbe-90eb-45c6d5db49a5",
+                name: "Docker",
+                logo: "/technologies/devops/docker.svg",
+            },
+        ],
+    },
+    {
         id: "3a679823-5b55-417e-a168-c379346c3a77",
         title: "Back-end",
         tech_data: [
@@ -106,27 +127,6 @@ export const technologiesData: TechnologiesI[] = [
                 id: "38c7c0e5-1106-4b48-9f4d-8479c7ff6bfa",
                 name: "Mongoose",
                 logo: "/technologies/database/mongoose.svg",
-            },
-        ],
-    },
-    {
-        id: "2d00a511-d382-4f13-bef6-f0f9f49161e1",
-        title: "DevOps",
-        tech_data: [
-            {
-                id: "b1db2a18-86da-4861-b24f-1b6f76520ae8",
-                name: "GitHub Actions",
-                logo: "/technologies/devops/github-actions.svg",
-            },
-            {
-                id: "c482f470-6f1e-4a1d-8260-8a5dc372ee29",
-                name: "Nginx",
-                logo: "/technologies/devops/nginx.svg",
-            },
-            {
-                id: "22b6d922-5e6f-4fbe-90eb-45c6d5db49a5",
-                name: "Docker",
-                logo: "/technologies/devops/docker.svg",
             },
         ],
     },

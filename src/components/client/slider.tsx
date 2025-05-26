@@ -8,7 +8,7 @@ import { technologiesData } from "@/data";
 
 export const Slider = () => {
     return (
-        <div className="max-w-[375px]">
+        <div className="w-screen">
             <Swiper
                 modules={[FreeMode]}
                 freeMode={{ enabled: true }}
@@ -18,11 +18,17 @@ export const Slider = () => {
                 speed={500}
                 allowTouchMove={true}
                 grabCursor={true}
+                breakpoints={{
+                    1280: {
+                        slidesPerView: 3.4,
+                        spaceBetween: 60,
+                    },
+                }}
             >
                 {technologiesData.map((item) => (
                     <SwiperSlide key={item.id}>
-                        <div className="rounded-[12px] border border-gray-300 w-[305px]">
-                            <div className="pt-[26px] pb-[16px] pl-[34px] pr-[71px]">
+                        <div className="rounded-[12px] border border-gray-500 w-fu">
+                            <div className="pt-[26px] pb-[40px] pl-[34px] pr-[71px]">
                                 <h2 className="text-[16px] font-normal">
                                     {item.title}
                                 </h2>
