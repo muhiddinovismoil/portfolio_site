@@ -27,7 +27,7 @@ export const Slider = () => {
             >
                 {technologiesData.map((item) => (
                     <SwiperSlide key={item.id}>
-                        <div className="rounded-[12px] border border-gray-500 w-fu">
+                        <div className="rounded-[12px] border border-[#3c3c3c] w-full">
                             <div className="pt-[26px] pb-[40px] pl-[34px] pr-[71px]">
                                 <h2 className="text-[16px] font-normal">
                                     {item.title}

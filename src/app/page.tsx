@@ -5,7 +5,7 @@ import { Slider, SliderXp } from "@/components";
 export default function Home() {
     return (
         <>
-            <main>
+            <main className="overflow-x-hidden">
                 <section>
                     <div className="container">
                         <div className="pt-[98px] xl:flex xl:justify-around xl:items-center 2xl:justify-between 2xl:pt-[128px]">
@@ -105,7 +105,7 @@ export default function Home() {
                 <section className="pt-[104px] pb-[110px]">
                     <div className="container">
                         <div className="flex flex-col items-center gap-[62px] xl:gap-[78px]">
-                            <p className="text-center max-w-[326px] text-[32px] font-normal text-gray-300 xl:text-5xl xl:max-w-[626px]">
+                            <p className="text-center max-w-[326px] text-[32px] font-normal text-gray-300 xl:text-5xl xl:max-w-[590px] xl:leading-[70px]">
                                 These are the technologies that I’ve been using
                             </p>
                             <Slider />
